@@ -1,4 +1,4 @@
-# anygas-xyz
+# AnyGas
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,153 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-anygas-xyz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://anygas.xyz/
+AnyGas provides a frictionless, gasless cross‑chain transaction relay that lets AI agents spend a single USDC balance across 22 networks—including EVM chains, Stellar, Solana, Bitcoin, and Tron. The service is non‑custodial, earns yield (~4% via Aave/Moonwell), and eliminates bridges, faucets, and chain‑switching hassles. It supports x402‑native tokens and aims to simplify decentralized finance interactions for developers and agents.
+
+**Areas:** FinTech · Blockchain · Gasless · AI · Cross-Chain
+
+## AnyGas on APIs.io
+
+Everything profiled for AnyGas is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/anygas-xyz/](https://apis.io/providers/anygas-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (29)
+
+- [AnyGas Account API](https://apis.io/apis/anygas-xyz/anygas-xyz-account-api/) — AnyGas Account — yield-native gasless spending, balances, receipts, and event webhooks for agents.
+- [AnyGas Adoption API](https://apis.io/apis/anygas-xyz/anygas-xyz-adoption-api/) — The adoption API from AnyGas — 6 operation(s) for adoption.
+- [AnyGas Agents API](https://apis.io/apis/anygas-xyz/anygas-xyz-agents-api/) — One-call and discovery endpoints built for autonomous agents
+- [AnyGas Best Execution API](https://apis.io/apis/anygas-xyz/anygas-xyz-best-execution-api/) — Multi-rail comparator and goal-based intent solver (read-only)
+- [AnyGas Concierge API](https://apis.io/apis/anygas-xyz/anygas-xyz-concierge-api/) — AI concierge and terms
+- [AnyGas Discovery API](https://apis.io/apis/anygas-xyz/anygas-xyz-discovery-api/) — Health, mesh and gasless config
+- [AnyGas Explorer API](https://apis.io/apis/anygas-xyz/anygas-xyz-explorer-api/) — Anonymized recent-routes feed
+- [AnyGas Float Lane API](https://apis.io/apis/anygas-xyz/anygas-xyz-float-lane-api/) — Robyn's own inventory lane — no bridge in the path
+- [AnyGas Floatlane API](https://apis.io/apis/anygas-xyz/anygas-xyz-floatlane-api/) — The floatlane API from AnyGas — 3 operation(s) for floatlane.
+- [AnyGas Keys API](https://apis.io/apis/anygas-xyz/anygas-xyz-keys-api/) — Optional self-serve API keys, quotas and usage
+- [AnyGas Keys Hooks API](https://apis.io/apis/anygas-xyz/anygas-xyz-keys-hooks-api/) — Optional developer keys and completion webhooks
+- [AnyGas Mandates API](https://apis.io/apis/anygas-xyz/anygas-xyz-mandates-api/) — Principal-signed spending budgets for autonomous agents, enforced outside the agent and consumed only against on-chain-verified transfers.
+- [AnyGas Membership API](https://apis.io/apis/anygas-xyz/anygas-xyz-membership-api/) — NFT-based membership: free micro-transfers and reduced fees
+- [AnyGas Messaging API](https://apis.io/apis/anygas-xyz/anygas-xyz-messaging-api/) — Wallet-to-wallet messaging (v2 sealed + unlinkable; v1 plaintext)
+- [AnyGas Netting API](https://apis.io/apis/anygas-xyz/anygas-xyz-netting-api/) — The netting API from AnyGas — 9 operation(s) for netting.
+- [AnyGas Payments API](https://apis.io/apis/anygas-xyz/anygas-xyz-payments-api/) — Verifiable agent-to-agent payment requests: signed by the payee, checkable by the payer, provable on-chain once paid.
+- [AnyGas Planning API](https://apis.io/apis/anygas-xyz/anygas-xyz-planning-api/) — Validate whole multi-step workflows before executing any of them.
+- [AnyGas Plus API](https://apis.io/apis/anygas-xyz/anygas-xyz-plus-api/) — Paid capacity/assurance/cover via unlinkable blind passes
+- [AnyGas Primitives API](https://apis.io/apis/anygas-xyz/anygas-xyz-primitives-api/) — Batch / schedule / conditional route primitives (gated, dry-run by default)
+- [AnyGas Privacy API](https://apis.io/apis/anygas-xyz/anygas-xyz-privacy-api/) — Selectable, per-request privacy. Oblivious HTTP, stealth addresses, and the proofs that let you check the claims rather than trust them.
+- [AnyGas Privacy Pool API](https://apis.io/apis/anygas-xyz/anygas-xyz-privacy-pool-api/) — The privacy-pool API from AnyGas — 5 operation(s) for privacy-pool.
+- [AnyGas Receipts API](https://apis.io/apis/anygas-xyz/anygas-xyz-receipts-api/) — The receipts API from AnyGas — 3 operation(s) for receipts.
+- [AnyGas Robyn Services API](https://apis.io/apis/anygas-xyz/anygas-xyz-robyn-services-api/) — User services for Robinhood Chain (token checker, premium monitor, gas top-up, fast exit, limit orders, corporate actions)
+- [AnyGas Routes API](https://apis.io/apis/anygas-xyz/anygas-xyz-routes-api/) — The routes API from AnyGas — 1 operation(s) for routes.
+- [AnyGas Routing API](https://apis.io/apis/anygas-xyz/anygas-xyz-routing-api/) — Quote and execute gasless cross-chain routes
+- [AnyGas Sponsored Transactions API](https://apis.io/apis/anygas-xyz/anygas-xyz-sponsored-transactions-api/) — EIP-7702 type-4 sponsorship: the relayer pays your gas
+- [AnyGas Status API](https://apis.io/apis/anygas-xyz/anygas-xyz-status-api/) — The status API from AnyGas — 8 operation(s) for status.
+- [AnyGas Transparency API](https://apis.io/apis/anygas-xyz/anygas-xyz-transparency-api/) — Where every unit went, what it would have cost elsewhere, how long delivery really takes, and signed proof of spend.
+- [AnyGas Verification API](https://apis.io/apis/anygas-xyz/anygas-xyz-verification-api/) — Check what actually happened against chain state, with caller-supplied post-conditions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Anygas Xyz Agentic Access](https://apis.io/agentic-access/anygas-xyz/anygas-xyz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CompareResult](https://apis.io/schemas/anygas-xyz/anygas-xyz-compare-result/)
+- [GaslessInfo](https://apis.io/schemas/anygas-xyz/anygas-xyz-gasless-info/)
+- [Mesh](https://apis.io/schemas/anygas-xyz/anygas-xyz-mesh/)
+- [Quote](https://apis.io/schemas/anygas-xyz/anygas-xyz-quote/)
+- [RouteReceipt](https://apis.io/schemas/anygas-xyz/anygas-xyz-route-receipt/)
+- [RouteRequest](https://apis.io/schemas/anygas-xyz/anygas-xyz-route-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Anygas Xyz Context](https://apis.io/jsonld/anygas-xyz/anygas-xyz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AnyGas API Rules](https://apis.io/rules/anygas-xyz/anygas-xyz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Anygas Xyz Domain Security](https://apis.io/security/anygas-xyz/anygas-xyz-domain-security/)
+- [Anygas Xyz Vulnerability Disclosure](https://apis.io/security/anygas-xyz/anygas-xyz-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://anygas.xyz/)
+- [Documentation](https://anygas.xyz/docs)
+- [Getting started](https://anygas.xyz/playground)
+- [API reference](https://anygas.xyz/docs)
+- [Support](https://anygas.xyz/trust)
+- [Security](https://anygas.xyz/docs)
+- [Terms of service](https://anygas.xyz/terms)
+- [Privacy policy](https://anygas.xyz/privacy)
+- [GitHub](https://github.com/ox31461)
+- [Status](https://anygas.xyz/status)
+
+## API Evangelist rating
+
+**Kin Score 50.5** — developing · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 38.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/anygas-xyz/](https://apis.io/providers/anygas-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AnyGas: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/anygas-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
